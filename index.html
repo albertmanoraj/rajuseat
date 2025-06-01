@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AM Seat Upholstry</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Seats Upholstery</a>
+        <i class="fa-solid fa-bars" id="menu-icon" onclick="toggleMenu()"></i>
+        <nav class="navbar" id="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#Materials">Materials</a>
+          <a href="#Seats">Seats</a>
+          <a href="#doorpad">Doorpad</a>
+          <a href="#toproof">TopRoof</a>
+          <a href="#contact">Contact us</a>
+        </nav>
+      </header>
+       
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <h1>Welcome to Albert Manoraj Upholstery works</h1>
+      <h2>
+        With 25+ years of expertise in seat upholstery, I specialize in restoring, customizing, and enhancing comfort for all types of vehicle and home seating. My services include car seats, doorpads, roof liners, and more. I ensure premium quality materials with customers satisfaction.
+      </h2><br><br><br>
+      <h2>Address</h2>
+      <h4>
+        Rajaji Nagar 1st block, Raj kumar Road, soap Factory circle, Opp Orion Mall, Bangalore-10.
+      </h4><br>
+      <a href="#Materials" class="btn">Explore My Services</a>
+    </div>
+    <div class="about_details_container">
+        <div class="details_container">
+            <h3>Experience</h3>
+            <p>25+ YEARS</p>
+        </div>
+        <div class="details_container">
+            <h3>Location</h3>
+            <p>Bangalore</p>
+        </div>
+    </div>
+  </section>
+          
+
+<!--about design-->
+<section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-content">
+        <h1>
+          I'm Albert <span>ManoRaj</span>
+        </h1>
+      
+        <p>
+          With over 25 years of experience in upholstery, I specialize in restoring and customizing car seats, 
+          door pads, roof liners, and home furniture. At Albert Manoraj Upholstery Works, I focus on comfort, durability, and 
+          customer satisfaction using only premium materials.
+        </p>
+  
+        <div class="social-media">
+          <a href="https://www.facebook.com/share/1BFKM65Gmb/"><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href="mailto:albertmanoraj477@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+          <a href=" tel:+919742332883"><i class="fa-solid fa-phone-volume"></i></a><p>9742332883</p>
+        </div>
+  
+        <a href="https://wa.me/9742332883" class="btn">WhatsApp me</a>
+      </div>
+  
+      <div class="home-img">
+        <img src="profilw2.jpg.png" alt="Albert ManoRaj">
+      </div>
+    </div>
+  </section>
+  <section id="Materials" class="materials-section">
+    <h2 class="section-title">Seat Material Types</h2>
+    <div class="material-cards">
+  
+      <!-- Rexin Card -->
+      <div class="material-card" onclick="showMaterialDetail('rexin')">
+        <img src="img3.png" alt="Rexin Material">
+        <h3>Rexin</h3>
+      </div>
+  
+      <!-- Softlawn / Velvet Card -->
+      <div class="material-card" onclick="showMaterialDetail('softlawn')">
+        <img src="img2.png" alt="Softlawn / Velvet Material">
+        <h3>Softlawn / Velvet</h3>
+      </div>
+  
+      <!-- Art Leather Card -->
+      <div class="material-card" onclick="showMaterialDetail('artleather')">
+        <img src="img4.png" alt="Art Leather Material">
+        <h3>Art Leather</h3>
+      </div>
+  
+    </div>
+  
+    <!-- Material Detail Boxes -->
+    <div id="rexin-detail" class="material-detail">
+      <h3>Rexin Material</h3>
+      <p>Rexin is a synthetic leather-like material used for car seats due to its durability, water resistance, and affordable cost. It's ideal for everyday vehicles and provides a smooth, stylish finish.</p>
+      <button onclick="goBack()">Back to Materials</button>
+    </div>
+  
+    <div id="softlawn-detail" class="material-detail">
+      <h3>Softlawn / Velvet</h3>
+      <p>Softlawn or velvet material offers a luxurious feel and soft texture. Best suited for premium interiors, it gives a plush seating experience and adds elegance to any car.</p>
+      <button onclick="goBack()">Back to Materials</button>
+    </div>
+  
+    <div id="artleather-detail" class="material-detail">
+      <h3>Art Leather</h3>
+      <p>Art leather mimics the look and feel of genuine leather but is more affordable and low maintenance. It’s perfect for customers seeking a balance of luxury and value.</p>
+      <button onclick="goBack()">Back to Materials</button>
+    </div>
+  </section>
+  
+  <!-- Seat Detail Boxes -->
+  <section id="Seats" class="materials-section">
+    <h2 class="section-title">Seat Material Types</h2>
+    <div class="material-cards">
+  
+      <!-- Rexin Card -->
+      <div class="material-card">
+        <img src="seat1.jpg" alt="Rexin Material">
+        <h3>Rexin</h3>
+      </div>
+  
+      <!-- Softlawn / Velvet Card -->
+      <div class="material-card">
+        <img src="seat2.jpg" alt="Softlawn / Velvet Material">
+        <h3>Softlawn / Velvet</h3>
+      </div>
+  
+      <!-- Art Leather Card -->
+      <div class="material-card">
+        <img src="seat3.jpg" alt="Art Leather Material">
+        <h3>Art Leather</h3>
+      </div>
+     <!-- Rexin Card -->
+       <div class="material-card">
+        <img src="seat7.jpg" alt="Rexin Material">
+        <h3>Rexin</h3>
+      </div>
+  
+      <!-- Softlawn / Velvet Card -->
+      <div class="material-card">
+        <img src="seat8.jpg" alt="Softlawn / Velvet Material">
+        <h3>Softlawn / Velvet</h3>
+      </div>
+  
+      <!-- Art Leather Card -->
+      <div class="material-card">
+        <img src="seat9.jpg" alt="Art Leather Material">
+        <h3>Art Leather</h3>
+      </div>
+       <!-- Rexin Card -->
+      <div class="material-card">
+        <img src="seat4.jpg" alt="Rexin Material">
+        <h3>Rexin</h3>
+      </div>
+  
+      <!-- Softlawn / Velvet Card -->
+      <div class="material-card">
+        <img src="seat5.jpg" alt="Softlawn / Velvet Material">
+        <h3>Softlawn / Velvet</h3>
+      </div>
+  
+      <!-- Art Leather Card -->
+      <div class="material-card">
+        <img src="seat6.jpg" alt="Art Leather Material">
+        <h3>Art Leather</h3>
+      </div>
+    </div>
+    </section>
+
+    <!-- Door Pad Section-->
+    <section class="doorpad-section" id="doorpad">
+      <h2 class="section-title">Car Door Pads & Laminations</h2>
+     
+      <div class="doorpad-container">
+        <!-- Front Door Pad -->
+        <div class="doorpad-card">
+          <img src="doorpad3.jpg" alt="Front Door Pad" />
+          <h3>Front Door Pad Lamination</h3>
+          <p>Elegant and durable laminated design for your front doors, perfectly matching your car’s interior.</p>
+        </div>
+        
+          <!-- Front Door Pad -->
+          <div class="doorpad-card">
+            <img src="doorpad12.jpg" alt="Front Door Pad" />
+            <h3>Front Door Pad Lamination</h3>
+            <p>Elegant and durable laminated design for your front doors, perfectly matching your car’s interior.</p>
+          </div>
+         
+    
+        <!-- Back Door Pad -->
+        <div class="doorpad-card">
+          <img src="doorpad1.jpg" alt="Back Door Pad" />
+          <h3>Back Door Pad Lamination</h3>
+          <p>Professionally crafted back door pads with high-quality materials and precise stitching.</p>
+        </div>
+        <p class="doorpad-description">
+          We specialize in customizing and laminating both <strong>front</strong> and <strong>back door pads</strong> 
+          with premium materials. With over <strong>25+ years</strong> of experience, we ensure long-lasting 
+          finishing and top-notch detailing for every car.
+        </p>
+      </div>
+     </section>
+    
+ 
+<!--Top Roof design-->
+  
+  <section class="toproof-section" id="toproof">
+    <h2 class="section-title">Top Roof & Premium Interior Works</h2>
+   
+  
+    <div class="toproof-image-gallery">
+      <div class="toproof-card">
+        <img src="top1.jpg" alt="Top Roof Design" />
+        <h3>Top Roof Design</h3>
+        <p>Custom designed roof liners with superior texture and color matching.</p>
+      </div>
+      <div class="toproof-card">
+        <img src="top2.jpg" alt="Top Roof Design" />
+        <h3>Top Roof Design</h3>
+        <p>Custom designed roof liners with superior texture and color matching.</p>
+      </div>
+      <div class="toproof-card">
+        <img src="top3.jpg" alt="Top Roof Design" />
+        <h3>Top Roof Design</h3>
+        <p>Custom designed roof liners with superior texture and color matching.</p>
+      </div>
+      <div class="toproof-card">
+        <img src="top5.jpg" alt="Top Roof Design" />
+        <h3>Top Roof Design</h3>
+        <p>Custom designed roof liners with superior texture and color matching.</p>
+      </div>
+      <div class="toproof-card">
+        <img src="top6.jpg" alt="Top Roof Design" />
+        <h3>Top Roof Design</h3>
+        <p>Custom designed roof liners with superior texture and color matching.</p>
+      </div>
+
+      <div class="toproof-card">
+        <img src="top2.jpg" alt="Headrest" />
+        <h3>Headrest</h3>
+        <p>Premium stitched headrests designed for both style and comfort.</p>
+      </div>
+      <div class="toproof-card">
+        <img src="top3.jpg" alt="Handrest" />
+        <h3>Handrest</h3>
+        <p>Soft, durable handrests that add support and elegance to your cabin.</p>
+      </div>
+      <div class="toproof-card">
+        <img src="top5.jpg" alt="Steering Cover" />
+        <h3>Steering Cover</h3>
+        <p>Grip-enhanced, stylish steering covers for everyday use and control.</p>
+      </div>
+      <!-- <div class="toproof-card">
+        <img src="top4.jpg" alt="Mat for Foot" />
+        <h3>Floor Mat</h3>
+        <p>Custom-cut mats that protect and complement your car's flooring.</p>
+      </div> -->
+      
+      <p class="toproof-description">
+        Our top roof and interior enhancements redefine luxury and comfort inside your car.
+        We offer <strong>premium quality</strong> materials with flawless finishing, backed by 
+        <strong>25+ years of craftsmanship</strong>. Elevate your driving experience with our elegant customizations.
+      </p>
+    </div>
+  </section>
+  
+  
+    <!--Contact design-->
+<section class="contact" id="contact">
+    <class class="heading">Contact<span>Me
+        <form  id="contactForm" action="https://formsubmit.co/albertmanoraj477@gmail.com" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Your Full Name" required>
+                <input type="email" name="email" placeholder="Enter your Email Address" required >
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="number" placeholder="Enter your Number" required>
+                <input type="text" name="Subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="msg" id="" cols="40" rows="10" placeholder="Decription....," required></textarea>
+            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_template" value="table">
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+        
+    <!--Footer design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2025 by @albertmanoraj | All rights Reserved. </p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angles-up"></i></a>
+    </div>
+
+</footer>
+    <!--Scroll reveal js-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+<!--typed js-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!--Main js-->
+
+<script src="script.js"></script>
+
+</body>
+</html>
