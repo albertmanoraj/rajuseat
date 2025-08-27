@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://albertmanoraj.github.io/rajuseat/sitemap.xml
