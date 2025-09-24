@@ -1,8 +1,18 @@
-function toggleMenu() {
+  function toggleMenu() {
     const navbar = document.getElementById('navbar');
     navbar.classList.toggle('active');
   }
 
+  // Select all navbar links
+  const navLinks = document.querySelectorAll('#navbar a');
+
+  // Close navbar when a link is clicked
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      const navbar = document.getElementById('navbar');
+      navbar.classList.remove('active');
+    });
+  });
 
   /*MAterials*/
   function showMaterialDetail(material) {
@@ -29,4 +39,5 @@ function toggleMenu() {
   ScrollReveal().reveal('.doorpad-card, .material-card, .toproof-card, .toproof-description, .contact', { origin: 'bottom', interval: 300 });
   ScrollReveal().reveal('.about_details_container,.about-container,.material-cards,.softlawn-detail', { origin: 'left' });
   ScrollReveal().reveal('.details_container, .rexin-detail', { origin: 'right', interval: 150 });
+
 
