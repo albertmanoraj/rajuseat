@@ -303,8 +303,8 @@ span{
 
     @media (max-width: 768px) {
      .navbar {
-        position: absolute;
-        top: 100%;
+        position: fixed;
+        top: 0;
         left: 0;
         width: 100%;
         background: rgba(23, 37, 49, 0.5); /* semi-transparent */
@@ -815,3 +815,4 @@ span{
 
 
     
+
